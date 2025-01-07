@@ -1,0 +1,5 @@
+{
+    "kafka_topic": "coinbase_topic",
+    "kafka_server": "localhost:9092",
+    "checkpoint_location": "/tmp/spark_checkpoint"
+  }
