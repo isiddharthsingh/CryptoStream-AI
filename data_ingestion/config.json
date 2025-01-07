@@ -1,0 +1,7 @@
+{
+    "api_url": "https://api.coinbase.com/v2/prices/{coin}-USD/spot",
+    "kafka_topic": "coinbase_topic",
+    "kafka_server": "localhost:9092",
+    "checkpoint_location": "/tmp/spark_checkpoint",
+    "coins": ["BTC", "ETH", "USDT", "LTC", "ADA", "SOL", "XRP", "DOGE", "BNB", "DOT", "SHIB"]
+}
