@@ -2,6 +2,8 @@
 
 A real-time cryptocurrency data pipeline and forecasting system that leverages Coinbase API, Apache Kafka, Apache Spark, and Cassandra to enable efficient data ingestion, processing, storage, and visualization. This system is designed to process live cryptocurrency price data for popular coins such as Bitcoin (BTC), Ethereum (ETH), and others, providing real-time insights and predictions.
 
+### Architecture Diagram:
+![alt text](<Architecture Diagram.png>)
 
 ### Key features include:
 - Real-time Data Ingestion: Seamlessly fetches cryptocurrency price data from the Coinbase API and streams it into Kafka topics for downstream processing.
